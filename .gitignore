@@ -1,0 +1,30 @@
+# ── Sensitive files ────────────────────────
+.env
+.env.local
+secrets.txt
+config/database.yml
+
+# ── Dependencies ───────────────────────────
+node_modules/
+vendor/
+
+# ── Python ─────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# ── Build output ───────────────────────────
+dist/
+build/
+*.log
+*.tmp
+
+# ── OS generated files ─────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE files ──────────────────────────────
+.vscode/
+.idea/
+*.swp
